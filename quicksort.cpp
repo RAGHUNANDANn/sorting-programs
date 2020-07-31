@@ -6,7 +6,7 @@ int partition(int a[],int low,int high)
   pi=low;
   for(i=low;i<high;i++)
   {
-    if(a[pi]<=pivot)
+    if(a[i]<=pivot)
     {
       temp=a[i];
       a[i]=a[pi];
